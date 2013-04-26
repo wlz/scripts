@@ -1,5 +1,5 @@
+(if (> a b)
 (define (sum-int a b)
-  (if (> a b)
       0
       (+ a
 	 (sum-int (1+ a) b))))
@@ -63,8 +63,7 @@
    1))
 
 (define (average x y)
-  (/ (+ x y) 2))
+  (/ (+ x y) 2 ))
 
 (sqrt 3)
-
 

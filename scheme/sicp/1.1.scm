@@ -25,10 +25,7 @@
 (tri 3 4)
 
 (define (tri x y)
-  (+ (squre x)
-     (squre y)))
-
-(tri 3 4)
+  (+ (squre (tri 3 4)
 
 (define (sum_of_squres x y)
   (+ (squre x)
