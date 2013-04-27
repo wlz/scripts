@@ -3,10 +3,11 @@
   (lambda(x)
     (* x x)))
 
-(squre n)
+
 ;Value: n
 
 ;Value: squre
 
 ;Value: 9
+
 

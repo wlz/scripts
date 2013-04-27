@@ -1,6 +1,7 @@
 (+ 5 3 4)
 (- 9 1)
-(+ (* 2 4) (- 4 6))
+(+ (* 2 4) (- 4 6))			
+
 
 (define a 3)
 (define b (+ a 1))
@@ -24,9 +25,6 @@
 
 (tri 3 4)
 
-(define (tri x y)
-  (+ (squre (tri 3 4)
-
 (define (sum_of_squres x y)
   (+ (squre x)
      (squre y)))
@@ -39,3 +37,8 @@
        (squre y))))
 
 (sum_of_squres 4 5)
+
+(define (abs x)
+  (cond ((> x 0) x)
+	((= x 0) 0)
+	((< x 0) (- x))))
