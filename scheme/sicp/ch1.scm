@@ -76,34 +76,87 @@
   (iter 1 0 n))
 
 
-(fib 5)
+;; (fib 5)
 
-(+ (fib 4)
-   (fib 3))
+;; (+ (fib 4)
+;;    (fib 3))
 
-(+ (+ (fib 3)
-      (fib 2))
-   (+ (fib 2)
-      (fib 1)))
+;; (+ (+ (fib 3)
+;;       (fib 2))
+;;    (+ (fib 2)
+;;       (fib 1)))
 
-(+ (+ (+ (fib 2)
-	 (fib 1))
-      (+ (fib 1)
-	 (fib 0)))
-   (+ (+ (fib 1)
-	 (fib 0))
-      (fib 1)))
+;; (+ (+ (+ (fib 2)
+;; 	 (fib 1))
+;;       (+ (fib 1)
+;; 	 (fib 0)))
+;;    (+ (+ (fib 1)
+;; 	 (fib 0))
+;;       (fib 1)))
 
-(+ (+ (+ (+ (fib 1)
-	    (fib 0))
-	 (fib 1))
-      (+ (fib 1)
-	 (fib 0)))
-   (+ (+ (fib 1)
-	 (fib 0))
-      (fib 1)))
+;; (+ (+ (+ (+ (fib 1)
+;; 	    (fib 0))
+;; 	 (fib 1))
+;;       (+ (fib 1)
+;; 	 (fib 0)))
+;;    (+ (+ (fib 1)
+;; 	 (fib 0))
+;;       (fib 1)))
 
-(+ (+ (+ (+ 1 1) 1) 1)
-   (+ (+ 1 1) 1)
-   (+ (+ (+ 2 1) 1)
-      (+ 2 1))
+;; (+ (+ (+ (+ 1 1) 1) 1)
+;;    (+ (+ 1 1) 1)
+;;    (+ (+ (+ 2 1) 1)
+;;       (+ 2 1))
+
+;; (define (sum-int a b)
+;;   (if (> a b)
+;;       0
+;;       (+ a (sum-int (+ a 1) b))))
+
+;; (define (sum-cubes a b)
+;;   (if (> a b)
+;;       0
+;;       (+ (* a a a)
+;; 	 (sum-cubes (+ a 1) b))))
+
+(define (sum term a next b)
+  (if (> a b)
+      0
+      (+ (term a)
+	 (sum term (next a) next b))))
+
+(define (sum-int a b)
+  (define (identity a) a)
+  (sum
+   ;; identity
+   (lambda(x) x)
+   a
+   1+ b))
+
+(define (sum-cubes a b)
+  (sum
+   (lambda(x) (* x x x))
+   a
+   (lambda(x) (+ 1 x))
+   b))
+
+(define (pi-sum a b)
+  (sum
+   (lambda(x) (/ 8 (* x (+ x 2))))
+   a
+   (lambda(x) (+ x 4))
+   b))
+
+(define (integral f a b dx)
+  (* (sum
+      f
+      (+ a (/ dx 2.0))
+      (lambda(x) (+ x dx))
+      b)
+     dx))
+
+(define (cube x)
+  (* x x x))
+  
+	  
+
