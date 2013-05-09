@@ -21,4 +21,16 @@
 (lambda (2 3) 3)
 3
 
+(define (cons x y)
+  (define (dispatch m)
+    (cond ((= m 0) x)
+	  ((= m 1) y)
+	  (else (display "error"))))
+  (dispatch))
 
+(define (car z) (z 0))
+(define (cdr z) (z 1))
+
+(define (cons x y)
+  (lambda (m) (cond ((= m 0) x)
+		    ((= m 1) y))))
