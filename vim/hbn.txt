@@ -1,0 +1,15 @@
+create table MEDREC.DIAGNOSIS
+(
+  PATIENT_ID           VARCHAR2(10) not null,
+  VISIT_ID             NUMBER(2) not null,
+  DIAGNOSIS_TYPE       VARCHAR2(1) not null,
+  DIAGNOSIS_NO         NUMBER(2) not null,
+  DIAGNOSIS_DESC       VARCHAR2(80),
+  DIAGNOSIS_DATE       DATE,
+  TREAT_DAYS           NUMBER(4),
+  TREAT_RESULT         VARCHAR2(4),
+  OPER_TREAT_INDICATOR NUMBER(1),
+  CODE_VERSION         VARCHAR2(8) default 'ICD-10'
+)
+
+
