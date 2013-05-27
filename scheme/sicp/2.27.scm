@@ -10,4 +10,3 @@
 		      result)))))
   (iter items '()))
 
-
