@@ -1,6 +1,6 @@
-create table MEDREC.DIAGNOSIS
+Create Table MEDREC.DIAGNOSIS
 (
-  PATIENT_ID           VARCHAR2(10) not null,
+  patient_id           VARCHAR2(10) not null,
   VISIT_ID             NUMBER(2) not null,
   DIAGNOSIS_TYPE       VARCHAR2(1) not null,
   DIAGNOSIS_NO         NUMBER(2) not null,
