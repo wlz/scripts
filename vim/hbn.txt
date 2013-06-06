@@ -12,4 +12,6 @@ Create Table MEDREC.DIAGNOSIS
   CODE_VERSION         VARCHAR2(8) default 'ICD-10'
 )
 
-
+lbl123adsafa
+lbllllllllldsa
+lbldewrwfr
