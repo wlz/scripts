@@ -12,4 +12,55 @@ Create Table MEDREC.DIAGNOSIS
   CODE_VERSION         VARCHAR2(8) default 'ICD-10'
 )
 
+'过敏药物   
+Me.cmbdAlergyDrugs.Tag = "过敏药物"
+'抢救次数         
+Me.txtEmerTreatTimes.Tag = "抢救次数"
+'抢救成功次数      
+Me.txtEscEmerTimes.Tag = "抢救成功次数"
+'特级护理天数       
+Me.txtSpecLevelNursDays.Tag = "特级护理天数"
+'一级护理天数       
+Me.txtFirstLevelNursDays.Tag = "一级护理天数"
+'二级护理天数       
+Me.txtSecondLevelNursDays.Tag = "二级护理天数"
+'三级护理天数       
+Me.txtThirdLevelNursDays.Tag = "三级护理天数"
+'病重天数           
+Me.txtSeriousCondDays.Tag = "病重天数"
+'病危天数          
+Me.txtCriticalCondDays.Tag = "病危天数"
+'ICU天数           
+Me.txtICUDays.Tag = "ICU"
+'CCU天数            
+Me.txtCCUDays.Tag = "CCU"
+'发生褥疮次数      
+Me.txtDecubitalUlcerTimes.Tag = "发生褥疮次数"
+'输液反应次数      
+Me.txtInfusionReactTime.Tag = "输液反应次数"
+'输血次数           
+Me.txtBloodTranTimes.Tag = "输血次数"
+'输血总量           
+Me.txtBloodTranVol.Tag = "输血总量"
+'输血反应次数       
+Me.txtBloodtranReactTimes.Tag = "输血反应次数"
+'红细胞       
+Me.txtRedCell.Tag = "红细胞"
+'血浆     
+Me.txtPlasma.Tag = "血浆"
+'机采血小板       
+Me.txtPalet1.Tag = "机采血小板"
+'手工分血小板       
+Me.txtPalet2.Tag = "手工分血小板"
+'全血       
+Me.txtWholeBlood.Tag = "全血"
+'其它血名称      
+Me.txtOtherBloodName.Tag = "其它血名称"
+'其它血       
+Me.txtOtherBlood.Tag = "其它血"
+'自身输血       
+Me.txtAutoTransfusion.Tag = "自身输血"
+'随诊期限          
+Me.txtFollowInterval.Tag = "随诊期限"
 
+1	133		(armed_services in ('陆军', '海军', '空军') and identity in ('军以上干部', '师职干部', '团以下干部', '战士', '职工') and service_agency like '%空军%') and (decode(service_agency2,null,'',service_agency2) <> '空军') AND (decode(service_agency2,null,'',service_agency2) <> 'G')	军人工作单位含有空军，隶属大单位不为空军！	3
