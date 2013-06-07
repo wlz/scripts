@@ -12,6 +12,7 @@ Create Table MEDREC.DIAGNOSIS
   CODE_VERSION         VARCHAR2(8) default 'ICD-10'
 )
 
+<<<<<<< HEAD
 '过敏药物   
 Me.cmbdAlergyDrugs.Tag = "过敏药物"
 '抢救次数         
@@ -64,3 +65,8 @@ Me.txtAutoTransfusion.Tag = "自身输血"
 Me.txtFollowInterval.Tag = "随诊期限"
 
 1	133		(armed_services in ('陆军', '海军', '空军') and identity in ('军以上干部', '师职干部', '团以下干部', '战士', '职工') and service_agency like '%空军%') and (decode(service_agency2,null,'',service_agency2) <> '空军') AND (decode(service_agency2,null,'',service_agency2) <> 'G')	军人工作单位含有空军，隶属大单位不为空军！	3
+=======
+lbl123adsafa
+lbllllllllldsa
+lbldewrwfr
+>>>>>>> 73683505e753f2765270864184e9f9af1bedc2d6
