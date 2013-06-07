@@ -12,7 +12,6 @@ Create Table MEDREC.DIAGNOSIS
   CODE_VERSION         VARCHAR2(8) default 'ICD-10'
 )
 
-<<<<<<< HEAD
 '过敏药物   
 Me.cmbdAlergyDrugs.Tag = "过敏药物"
 '抢救次数         
@@ -69,4 +68,3 @@ Me.txtFollowInterval.Tag = "随诊期限"
 lbl123adsafa
 lbllllllllldsa
 lbldewrwfr
->>>>>>> 73683505e753f2765270864184e9f9af1bedc2d6
