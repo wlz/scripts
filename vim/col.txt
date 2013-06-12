@@ -1,26 +1,56 @@
-AccumlateDate
-Age
-AllergyMed
-ArmyType
-BeginDate
-Birth
-BirthPlace
-Dia
-DiagDr
-Diagnosis
-Ethnic
-IDCardNo
-MachineType
-Marriage
-Name
-PersonType
-Position
-Rank
-Service
-ServiceRank
-Sex
-Telephone
-Unit
-UnitAddress
-WorkStatus
-ZipCode
+AccumlateDate	 Marriage                    
+
+the
+the 
+teh 
+Age		 MachineType
+AllergyMed	 IDCardNo
+ArmyType	 Ethnic
+BeginDate	 Diagnosis
+Birth		 DiagDr
+BirthPlace	 Dia
+Dia		 BirthPlace
+DiagDr		 Birth
+Diagnosis	 BeginDate
+Ethnic		 ArmyType
+IDCardNo	 AllergyMed
+MachineType	 Age
+AccumlateDate	 Marriage                    
+Age		 MachineType
+AllergyMed	 IDCardNo
+ArmyType	 Ethnic
+BeginDate	 Diagnosis
+Birth		 DiagDr
+BirthPlace	 Dia
+Dia		 BirthPlace
+DiagDr		 Birth
+Diagnosis	 BeginDate
+Ethnic		 ArmyType
+IDCardNo	 AllergyMed
+MachineType	 Age
+AccumlateDate	 Marriage                    
+Age		 MachineType
+AllergyMed	 IDCardNo
+ArmyType	 Ethnic
+BeginDate	 Diagnosis
+Birth		 DiagDr
+BirthPlace	 Dia
+Dia		 BirthPlace
+DiagDr		 Birth
+Diagnosis	 BeginDate
+Ethnic		 ArmyType
+IDCardNo	 AllergyMed
+MachineType	 Age
+AccumlateDate	 Marriage                    
+Age		 MachineType
+AllergyMed	 IDCardNo
+ArmyType	 Ethnic
+BeginDate	 Diagnosis
+Birth		 DiagDr
+BirthPlace	 Dia
+Dia		 BirthPlace
+DiagDr		 Birth
+Diagnosis	 BeginDate
+Ethnic		 ArmyType
+IDCardNo	 AllergyMed
+MachineType	 Age
