@@ -39,3 +39,9 @@
   (+ (car triple)
      (cadr triple)
      (caddr triple)))
+
+
+
+
+
+
