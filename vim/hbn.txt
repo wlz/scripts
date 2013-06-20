@@ -1,22 +1,22 @@
-info.strName = DataTransactionMethod.GetStrValue(item[1]);
-info.strChargeType = DataTransactionMethod.GetStrValue(item[2]);
-info.strPatientId = DataTransactionMethod.GetStrValue(item[3]);
-info.str1ItemName = DataTransactionMethod.GetStrValue(item[5]);
-info.strItemSpec = DataTransactionMethod.GetStrValue(item[6]);
-info.strUnits = DataTransactionMethod.GetStrValue(item[7]);
-info.dAmount = DataTransactionMethod.GetDoubleValue(item[8]);
-info.dCharges2 = DataTransactionMethod.GetDoubleValue(item[9]);
-info.strBedNo = DataTransactionMethod.GetStrValue(item[10]);
-info.dtBillingDateTime = DataTransactionMethod.GetDateTimeValue(item[11]);
-info.strOperatorName = DataTransactionMethod.GetStrValue(item[12]);
-info.strRestIdNo = DataTransactionMethod.GetStrValue(item[13]);
-info.dtDisChargeDate = DataTransactionMethod.GetDateTimeValue(item[14]);
-info.strdeptname = DataTransactionMethod.GetStrValue(item[15]);
-info.strWardName = DataTransactionMethod.GetStrValue(item[16]);
-info.dtAdmissionDate = DataTransactionMethod.GetDateTimeValue(item[17]);
-info.dPrepayments = DataTransactionMethod.GetDoubleValue(item[18]);
-info.dTotalCharges = DataTransactionMethod.GetDoubleValue(item[19]);
-info.strClassName = DataTransactionMethod.GetStrValue(item[20]);
-info.str*PerformedBy = DataTransactionMethod.GetStrValue(item[21]);
-info.str_InpNo = DataTransactionMethod.GetStrValue(item[22]);
-info.strOperatorNo = DataTransactionMethod.GetStrValue(item[24]);
+DataTransactionMethod.GetStrValue(item[0])
+DataTransactionMethod.GetStrValue(item[1])
+DataTransactionMethod.GetStrValue(item[2])
+DataTransactionMethod.GetStrValue(item[3])
+DataTransactionMethod.GetStrValue(item[4])
+DataTransactionMethod.GetStrValue(item[5])
+DataTransactionMethod.GetDoubleValue(item[6])
+DataTransactionMethod.GetDoubleValue(item[7])
+DataTransactionMethod.GetStrValue(item[8])
+DataTransactionMethod.GetDateTimeValue(item[9])
+DataTransactionMethod.GetStrValue(item[10])
+DataTransactionMethod.GetStrValue(item[11])
+DataTransactionMethod.GetDateTimeValue(item[12])
+DataTransactionMethod.GetStrValue(item[13])
+DataTransactionMethod.GetStrValue(item[14])
+DataTransactionMethod.GetDateTimeValue(item[15])
+DataTransactionMethod.GetDoubleValue(item[16])
+DataTransactionMethod.GetDoubleValue(item[17])
+DataTransactionMethod.GetStrValue(item[18])
+DataTransactionMethod.GetStrValue(item[19])
+DataTransactionMethod.GetStrValue(item[20])
+DataTransactionMethod.GetStrValue(item[21])
