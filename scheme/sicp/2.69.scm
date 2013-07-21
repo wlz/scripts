@@ -48,6 +48,6 @@
 
 (define (weight-leaf x) (caddr x))
 
-;(define sample-pairs '((A 2) (G 3) (B 4) (E 8) (F 12) (D 1) (C 1)))
-(define sample-pairs '((A 4) (B 2) (C 1) (D 1)))
+(define sample-pairs '((A 2) (G 3) (B 4) (E 8) (F 12) (D 1) (C 1)))
+;(define sample-pairs '((A 4) (B 2) (C 1) (D 1)))
 
