@@ -1,0 +1,10 @@
+(define (make-accumulator initial)
+  (lambda (amount)
+    (begin (set! initial (+ initial amount))
+	   initial)))
+
+(define (make-accumulator1 initial)
+  (define (add amount)
+    (begin (set! initial (+ initial amount))
+	   initial))
+  add)
